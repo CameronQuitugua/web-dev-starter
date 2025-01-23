@@ -8,6 +8,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="img/favicon.ico">
+  <style>
+    h1 {
+      color: rgb(54, 27, 5);
+      border: 0cap;
+      font-family: sans-serif;
+    }
+    ul {
+      list-style-type: square;
+    }
+    hr {
+      border: 5px solid rgb(54, 27, 5);
+    }
+    body {
+      font-family: monospace;
+      font-size: large;
+    }
+    button {
+      background-color:rgb(157, 223, 244);
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+  </style>
 </head>
 
 <body>
@@ -32,6 +54,19 @@
 
   <button id="jokeButton">Get a Random Joke</button>
   <p id="joke"></p>
+
+  <hr>
+
+  <ul>
+    <li><strong>Name:</strong> Cameron Quitugua</li>
+    <li><strong>Expected Graduation:</strong> Spring 2026</li>
+    <li>I don't currently have a job in Web Dev</li>
+    <li>I haven't had a job or internship in Web Dev</li>
+  </ul>
+
+  <hr>
+
+  <img src="indexPicture.jpg" alt="Picture of me" width=25%>
 
   <script type="module" script="js/main.js">
     import {helloWorld, add, fetchRandomJoke} from './js/main.js';
