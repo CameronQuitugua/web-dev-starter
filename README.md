@@ -30,4 +30,8 @@ npm test
 
 ## Running
 
+To run website, copy and paste the website URL in a seperate tab.
+Buttons are colored blue.
+
+Clicking the 
 
